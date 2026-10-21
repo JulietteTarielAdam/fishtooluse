@@ -1,0 +1,40 @@
+project:
+  type: website
+  resources:
+    - images
+    - videos
+    
+execute:
+  freeze: false
+  cache: false
+
+website:
+  title: "Fish Tool Use project"
+  description: "Website for the Fish Tool Use research project led by Dr Juliette Tariel‑Adam and Prof Culum Brown"
+  site-url: "https://fishtooluse.com"
+  repo-url: "https://github.com/JulietteTarielAdam/fishtooluse"
+  favicon: "images/favicon.ico"
+  navbar:
+    search: false
+    right:
+      - text: Home
+        href: index.qmd
+      - text: Report your observation
+        href: report.qmd
+      - text: Contributors
+        href: contributors.qmd
+      - text: Investigators
+        href: investigators.qmd
+      - text: Project
+        href: project.qmd
+      - text: Tool use in animals
+        href: tooluse.qmd
+      - icon: instagram
+        href: https://www.instagram.com/fishtooluse/ 
+        
+format:
+  html:
+    theme: materia
+    toc: true
+    toc-location: left
+    css: styles.css

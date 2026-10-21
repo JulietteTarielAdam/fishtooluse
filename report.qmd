@@ -1,0 +1,74 @@
+---
+title: "Report your observation"
+---
+
+The project aims to study anvil use by fish (a tool-use behaviour). But the project [investigators](investigators.qmd) can't go out and observe every fish species around the world to find out whether they use tools and, if so, how. That's why [we need your help!]{.highlight-blue} 
+
+::: {.callout-note}
+# Report your observation in one of two ways:
+
++ Fill in the form: [https://airtable.com/app3cz3P4JaF2rq5q/pagDx2zTEFNTqCu4n/form](https://airtable.com/app3cz3P4JaF2rq5q/pagDx2zTEFNTqCu4n/form){target="_blank"}
++ Send me an email at [juliette.tarieladam@gmail.com](mailto:juliette.tarieladam@gmail.com)
+
+::: 
+
+Any information is helpful, so please don't hesitate to report what you saw. And if you have any questions, feel free to get in touch.
+
+Thank you so much for contributing to this project 🙏 
+
+# 🔎 What to look for? 
+
+[What does a fish performing anvil use look like?]{.highlight-blue}  **The fish holds a prey item in its mouth and strikes it quickly and repeatedly against a rock, or any other hard surface.**
+
+Check out the videos below (all sent in by previous contributors!) to see this behaviour displayed by small and large fish with different types of prey.
+
+
+{{< video videos/Joseph-Gracia.mp4  title="Anvil use by a *Choerodon* wrasse">}}
+
+[Video by Joseph Gracia (their [Facebook](https://www.facebook.com/joseph.gracia.35)).]{.legend}
+
+
+{{< video videos/Susan-Prior.mp4  title="Anvil use by a *Pseudolabrus* wrasse">}}
+
+[Video by Susan Prior (their [Website](https://www.norfolkislandreef.com.au/) and [Insta](https://www.instagram.com/norfolk_island_time)).]{.legend}
+
+
+{{< video videos/CE-O-Brien.mp4  title="Anvil use by a *Halichoeres* wrasse">}}
+
+[Video by C.E. O'Brien (their [Insta](https://www.instagram.com/octoshades/)).]{.legend}
+
+
+# 🌊  Where to look?
+
+Anywhere there are fish! Coral reefs, aquariums, kelp forests, rivers, etc.
+
+# ⓘ  Contributor information
+
+## 🌱 What will your observation contribute to?
+You are contributing to a research project designed to be fully open, transparent, collaborative, and harmless to fish 🐟❤ Find out about the project goals on the [project page](project.qmd).
+
+
+## 👩‍💻️ What will happen to your observation?
+1) Initially, only the two project [investigators](investigators.qmd) will have access to what you submit, so any photos or videos you share can be viewed only by us. The only personal data we collect are your name and email address, and only if you choose to provide them. Your data are stored securely on Dr Juliette Tariel-Adam's computer and backed up to OneDrive.
+
+⚠️ Data is now stored on Airtable. If this is a concern, please contact me juliette.tarieladam @gmail.com.
+
+2)  If you consent, I will feature your observation on the [contributors page](contributors.qmd) and on the [project's Instagram](https://www.instagram.com/fishtooluse/){target="_blank"}. I aim to highlight every observation I receive as a way of thanking you and acknowledging your contribution. If you share a video, I may also post it on YouTube to help make fish tool use more widely known.
+
+3) I will compile all observations in a final dataset and analyse it to answer the project research questions. You will be informed of any publications on social media, on the website and by email (if you provided an email address). 
+
+## 💾️ What will the final dataset contain?
+The final dataset will compile all observations with the following information for each observation:
+
++ the species name
++ the location of the observation
++ details about fish behaviour: technique, type of prey item, etc
++ Depending on your consent, it may also include:
+  - your name
+  - the link to the picture or video of the fish
+
+## 📤 Withdrawal
+You can withdraw your observation at any time before the dataset is published. To modify or delete your submission, email: juliette.tarieladam@gmail.com.
+
+## 🤝 Why make the final dataset open access?
+I believe science should be collaborative, transparent, and open to everyone so it can be as effective, reliable, and fair as possible. Making the dataset open access means anyone can explore it – whether for further research or out of curiosity about tool use in fish. For the same reason, and where consent allows, I will share submitted videos on YouTube.

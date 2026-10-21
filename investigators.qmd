@@ -1,0 +1,57 @@
+---
+title: "Investigators"
+editor_options: 
+  chunk_output_type: console
+---
+
+
+## Juliette Tariel-Adam
+
+::: {.investigators-img-big}
+
+![Juliette Tariel-Adam](images/Juliette-Tariel-Adam.png)
+
+::: 
+
+
+I am an early-career researcher interested in the evolution, behaviour and cognition of fishes. I want to understand why fish behave the way they do, and studying their evolution provides me with many answers. I hold a PhD in Evolutionary Biology from Claude Bernard Lyon 1 University in France. I am currently a postdoctoral researcher at Macquarie University in Australia. 
+
+{{< fa globe >}}  [Personal website](https://juliettetarieladam.github.io/){target="_blank"}
+
+
+## Culum Brown
+
+::: {.investigators-img-big}
+![Culum Brown](images/culum-brown.jpg)
+::: 
+
+
+
+Culum is an international superstar in fish, shark and ray research. He has published more than 170 articles and 14 book chapters on their behaviour and cognition, which have been cited more than 10,000 times. He has applied his knowledge to improve the welfare and conservation of these animals in a wide range of contexts: fisheries, aquaculture, zoos, aquariums and research facilities. He has been a professor at Macquarie University since 2019.
+
+{{< fa globe >}} [Lab website](https://thefishlab.com/PI.html){target="_blank"}
+
+# Where do we work?
+
+::: { layout-ncol=2 .investigators-img-small}
+
+![The Fish Lab](images/fish-lab.jpg)
+
+[![Macquarie University](images/macquarie-university.png)](https://www.mq.edu.au/faculty-of-science-and-engineering/departments-and-schools/school-of-natural-sciences){target="_blank"}
+
+:::
+
+# Who funds this project?
+We are grateful to the funders of this project:
+
+::: {layout-ncol=2 .investigators-img-small}
+
+[![Fyssen Foundation](images/funder_Fyssen.png)](https://www.fondationfyssen.fr/en/home/){target="_blank"}
+
+[![FSBI, a scientific society for fish biology](images/funder_FSBI.png)](https://fsbi.org.uk/){target="_blank"}
+
+[![Minderoo Foundation](images/funder_Minderoo.png)](https://www.minderoo.org/){target="_blank"}
+
+![Bruno Combes](images/funder_Bruno-Combes.png)
+
+:::

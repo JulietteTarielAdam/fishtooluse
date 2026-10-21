@@ -1,0 +1,115 @@
+---
+title: "Contributors"
+editor_options: 
+  chunk_output_type: console
+---
+
+💙 We are highly grateful to all participants who have taken the time to share their observations of anvil use by fish with us. The project wouldn't be possible without them.
+
+# 🚨 Last contribution
+
+
+
+```{r}
+#| echo: false
+#| 
+
+last.obs <- read.csv("airtable/last-observation.csv")
+last.obs$filename <- paste0("fish-pictures/",last.obs$filename )
+```
+
+:::: {.columns .last-contribution}
+
+::: {.column width="70%"}
+
+Thanks to our latest contributor!
+
+🐟 **Fish observed:** *`r last.obs$Species`* (`r last.obs$Vernacular`)
+
+👤 **Contributor:** `r last.obs$Contributor`
+
+📍 **Location:** `r last.obs$Location`, `r last.obs$Country`
+
+:::
+
+::: {.column width="30%"}
+
+![](`r last.obs$filename`){fig-alt="`r last.obs$Species`" height="150"}
+
+:::
+
+:::
+
+
+
+# 👩👦🧓 Contributors
+
+Please find below the list of contributors (a few of them chose to remain anonymous, so their names aren't displayed). Some contributors are active ocean observers and photographers – check out their social media accounts for more ocean stories, photos, and videos.
+
+
+```{r, echo = FALSE}
+
+participants <- read.csv("airtable/participants.csv")
+knitr::kable(participants,
+             escape = FALSE,
+             col.names = c("Participant", "Their social media")
+)
+```
+
+PS: I am currently finishing to compile the observations I have received – apologies if your name isn't yet displayed in the list. Your name should appear there by December 2026.
+
+# 🐟 Fish species reported so far
+Below is a list of species reported to be able to use rocks as tools by contributors. There are already so many species on the list. How many more will we discover?
+
+Find more information about the fishes by following the links to FishBase, Wikipedia, or DORIS (in French), and more photos by following the links to iNaturalist. 
+
+```{r}
+#| results: asis
+#| echo: false
+
+fish <- read.csv("airtable/fish.csv")
+fish$filename <- paste0("fish-pictures/", fish$filename)
+fish <- fish[with(fish, order(Species)),]
+
+cat('<div class="fish-grid">\n')
+
+has_link <- function(x) !is.na(x) & nzchar(trimws(x))
+
+for (i in seq_len(nrow(fish))) {
+  links <- sprintf('<a href="%s" target="_blank">FishBase</a>',
+                   fish$Link.Fishbase[i])
+  if (has_link(fish$Link.Wikipedia[i])) {
+    links <- paste0(links, '\n·\n',
+                    sprintf('<a href="%s" target="_blank">Wikipedia</a>',
+                            fish$Link.Wikipedia[i]))
+  }
+  if (has_link(fish$Link.Doris[i])) {
+    links <- paste0(links, '\n·\n',
+                    sprintf('<a href="%s" target="_blank">Doris</a>',
+                            fish$Link.Doris[i]))
+  }
+  if (has_link(fish$Link.iNaturalist[i])) {
+    links <- paste0(links, '\n·\n',
+                    sprintf('<a href="%s" target="_blank">iNaturalist</a>',
+                            fish$Link.iNaturalist[i]))
+  }
+
+  cat(sprintf(
+    '<div class="fish-card">
+<img src="%s" alt="%s">
+<div class="fish-species">%s</div>
+<div class="fish-common">%s</div>
+<div class="fish-links">
+%s
+</div>
+</div>\n',
+fish$filename[i],
+fish$Species[i],
+fish$Species[i],
+fish$Vernacular.name[i],
+links
+  ))
+}
+
+cat('</div>\n')
+```

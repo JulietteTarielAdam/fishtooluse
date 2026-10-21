@@ -1,0 +1,27 @@
+---
+pagetitle: "Homepage"
+---
+
+Welcome to the website of the **Fish Tool Use project**! This project focuses on anvil use in fish, an understudied example of tool use. 
+
+📢 Follow the project updates on this website and on [Instagram](https://www.instagram.com/fishtooluse/){target="_blank"}.
+
+📹 What is anvil use? Watch the video below, and find more explanation about it on the [Report your observation](report.qmd) and [Project](project.qmd) webpages.
+
+📝 **How do I report an observation of fish anvil use?** Check the [Report your observation](report.qmd) webpage. You might be the first person to discover that this fish species is able to use tools! 
+
+🤝 Who has already shared their observations of fish anvil use? Check the [contributors](contributors.qmd) webpage. 
+
+👤 Who is leading and funding the Fish Tool Use project? Check the [investigators](investigators.qmd) webpage. 
+
+ℹ️ What is this project all about? Check the [project](project.qmd) webpage. 
+
+🤯 But wait a minute... fish can use tools? Check out the [Tool use in animals](tooluse.qmd) webpage to learn more about tool use in animals.
+
+✉️ Feel free to contact me at juliette.tarieladam@gmail.com with any questions, comments, or observations.
+
+<!-- change to another video one day -->
+
+{{< video videos/Choerodon-anchorago.mp4  title="Anvil use by a *Choerodon* wrasse from the BBC documentary Blue Planet II">}}
+
+[Anvil use by a *Choerodon* wrasse from the BBC documentary Blue Planet II]{.legend}

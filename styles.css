@@ -1,0 +1,137 @@
+.highlight-blue {
+  background-color: rgba(33,150,243,0.2);
+  padding: 0em 0.2em;
+}
+
+h2 {
+  font-size: 1.2rem;
+}
+
+
+
+
+/* sidebar */
+.sidebar {
+  background: transparent !important;
+}
+
+#quarto-margin-sidebar::before {
+  content: "";
+  display: block;
+  height: 120px;                 
+  margin-top: 1rem;              
+  background: url("images/logo.png") no-repeat top center / contain;
+}
+
+/* bold title navbar */
+.navbar-title {
+    font-weight: 800;
+}
+
+/* background picture */
+body {
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url(images/banner.jpg);
+  background-repeat: no-repeat;
+}
+
+#quarto-document-content {
+  background-color: rgba(255, 255, 255, 0.9) !important;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-top: 1em;
+  margin-top: 1em;
+}
+
+/* Pictures and videos */
+figure, div.quarto-video {
+  max-width:400px;
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.legend {
+  font-size: 0.8rem;
+  color: #777;
+  max-width:400px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Pictures in Investigators page */
+
+.investigators-img-small img{
+  max-height: 100px;
+}
+
+.investigators-img-big img{
+  max-height: 250px;
+}
+
+.investigators-img-small figure figcaption, .investigators-img-big figure figcaption{
+  display: none;
+}
+
+/* Fish gallery */
+
+.fish-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.fish-card {
+  text-align: center;
+}
+
+.fish-card img {
+  height: 150px;        
+  width: 100%;      
+  object-fit: contain;  
+
+}
+
+.fish-species {
+  margin-top: 0.6rem;
+  margin-bottom: 0.1rem;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.fish-common {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 0.25rem;
+}
+
+.fish-links {
+font-size: 0.85rem;
+}
+
+.fish-links a {
+margin: 0 0.25rem;
+}
+
+/* One column on small screens */
+@media (max-width: 768px) {
+  .fish-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Last contribution */
+@media (max-width: 768px) {
+  .last-contribution {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .last-contribution > .column {
+    width: 100% !important;
+  }
+}
