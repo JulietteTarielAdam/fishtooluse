@@ -4,8 +4,7 @@ library(tidyverse)
 AIRTABLE_BASE_ID <- Sys.getenv("AIRTABLE_BASE_ID")
 if (AIRTABLE_BASE_ID == "") stop("AIRTABLE_BASE_ID is not set")
 
-AIRTABLE_BASE_ID <- Sys.getenv("AIRTABLE_API_KEY")
-if (AIRTABLE_API_KEY == "") stop("AIRTABLE_API_KEY is not set")
+if (Sys.getenv("AIRTABLE_API_KEY") == "") stop("AIRTABLE_API_KEY is not set")
 
 # Participants 
 participants_raw <- airtable("Participants",AIRTABLE_BASE_ID) %>% 
