@@ -4,3 +4,6 @@ _site/
 styles2.scss
 .Renviron
 .env
+
+/.quarto/
+**/*.quarto_ipynb

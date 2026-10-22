@@ -1,6 +1,5 @@
 ---
 title: "Tool use in animals"
-body-footer: "Photo credits: Capuchin monkey by Tiago Falotico; New Caledonian crow by Natalie Uomini; Beetle by Thomas Eisner; Elephant by Sean Parker; Archerfish by Kim Taylor; Cichlid by Uffe Lindström. Wrasse anvil use footage by BBC Documentary Blue Planet II."
 ---
 
 We use tools every day: cars, hairbrushes, plastic boxes. Tools are all around us. [But other animals use tools too!]{.highlight-blue} Tool use has been observed in a wide range of animals: primates, birds, fish, insects, crustaceans, cephalopods, etc. Animals use tools mainly to gain access to new foods, but also to protect themselves from predators and so on.
