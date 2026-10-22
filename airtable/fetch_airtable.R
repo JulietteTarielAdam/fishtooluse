@@ -1,10 +1,11 @@
 library(rairtable)
 library(tidyverse)
 
-base_id <- "app3cz3P4JaF2rq5q"
+AIRTABLE_BASE_ID <- Sys.getenv("AIRTABLE_BASE_ID")
+if (AIRTABLE_BASE_ID == "") stop("AIRTABLE_BASE_ID is not set")
 
 # Participants 
-participants_raw <- airtable("Participants",base_id) %>% 
+participants_raw <- airtable("Participants",AIRTABLE_BASE_ID) %>% 
   read_airtable(.)
 participants <- participants_raw %>% 
   filter(`Name-obs` == "Yes") %>% 
@@ -14,7 +15,7 @@ participants <- participants_raw %>%
 write.csv(participants, row.names = FALSE, "airtable/participants.csv")
 
 # Fish
-fish_raw <- airtable("Fish",base_id) %>%
+fish_raw <- airtable("Fish",AIRTABLE_BASE_ID) %>%
   read_airtable(.)
 fish <- fish_raw %>% 
   unnest(Picture) %>% 
@@ -23,10 +24,10 @@ fish <- fish_raw %>%
 write.csv(fish, row.names = FALSE, "airtable/fish.csv")
 
 # Last contribution
-observations_raw <- airtable("Observations",base_id) %>%
+observations_raw <- airtable("Observations",AIRTABLE_BASE_ID) %>%
   read_airtable(.)
 
-videos_raw <- airtable("Videos", base_id) %>%
+videos_raw <- airtable("Videos", AIRTABLE_BASE_ID) %>%
   read_airtable(.)
 
 if (max(videos_raw$Created) > max(observations_raw$Created)){
