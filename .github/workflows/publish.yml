@@ -46,7 +46,7 @@ jobs:
           AIRTABLE_BASE_ID: ${{ secrets.AIRTABLE_BASE_ID }}
         run: |
           mkdir -p airtable
-          Rscript fetch_airtable.R
+          Rscript airtable/fetch_airtable.R
 
       - name: Render Quarto site
         run: quarto render
