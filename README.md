@@ -10,6 +10,13 @@ The project focuses on anvil use: a fish is using a hard surface to crack open h
 - **Contact**: Contact page for reporting observations of fish using tools and data information (handling, consent, withdrawal, dataset plan and licence).
 
 
-## Credits
+## Picture credits 
 
-Background picture by Joseph Gracia (their Facebook account: [https://www.facebook.com/joseph.gracia.35](https://www.facebook.com/joseph.gracia.35).
+Credits for the pictures in the 'Tool use in animals' page:
+
++ Capuchin monkey by Tiago Falotico
++ New Caledonian crow by Natalie Uomini
++ Beetle by Thomas Eisner
++ Elephant by Sean Parker
++ Archerfish by Kim Taylor
++ Cichlid by Uffe Lindström. 
