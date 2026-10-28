@@ -7,3 +7,7 @@ styles2.scss
 
 /.quarto/
 **/*.quarto_ipynb
+
+airtable/participants.csv
+airtable/last-observation.csv
+airtable/fish.csv
