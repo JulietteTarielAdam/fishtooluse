@@ -14,7 +14,7 @@ editor_options:
 #| echo: false
 #| 
 
-# last.obs <- read.csv("airtable/last-observation.csv")
+last.obs <- read.csv("airtable/last-observation.csv")
 last.obs$filename <- paste0("fish-pictures/",last.obs$filename )
 ```
 
@@ -49,7 +49,7 @@ Please find below the list of contributors (a few of them chose to remain anonym
 
 ```{r, echo = FALSE}
 
-# participants <- read.csv("airtable/participants.csv")
+participants <- read.csv("airtable/participants.csv")
 knitr::kable(participants,
              escape = FALSE,
              col.names = c("Participant", "Their social media")
@@ -67,7 +67,7 @@ Find more information about the fishes by following the links to FishBase, Wikip
 #| results: asis
 #| echo: false
 
-# fish <- read.csv("airtable/fish.csv")
+fish <- read.csv("airtable/fish.csv")
 fish$filename <- paste0("fish-pictures/", fish$filename)
 fish <- fish[with(fish, order(Species)),]
 
