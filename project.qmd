@@ -66,5 +66,3 @@ The third aim of the project is to challenge the widespread perception that fish
 + Read this [Australian Geographic article](https://www.australiangeographic.com.au/nature-wildlife/2020/01/underwater-and-underrated-the-truth-behind-fish-intelligence/)
 
 :::
-
-<!-- Another goal of the project is to deconstruct the image of fish as stupid. Fish are intelligent animals. Their cognitive abilities are far beyond what most people think, other matching or outstanding the ones from mammals. Check out this free [e-learning](https://www.mvls.gla.ac.uk/Teaching/SmartFish/story_html5.html) or this [article from Australian Geographic magazine](https://www.australiangeographic.com.au/nature-wildlife/2020/01/underwater-and-underrated-the-truth-behind-fish-intelligence/) to learn more about how smart are fish. -->

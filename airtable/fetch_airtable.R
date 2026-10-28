@@ -14,7 +14,7 @@ participants <- participants_raw %>%
   arrange(`Date-first-contact`) %>% 
   transmute(Participant,`Social-media-reference` = replace_na(`Social-media-reference`, ""))
 
-write.csv(participants, row.names = FALSE, "airtable/participants.csv")
+# write.csv(participants, row.names = FALSE, "airtable/participants.csv")
 
 # Fish
 fish_raw <- airtable("Fish",AIRTABLE_BASE_ID) %>%
@@ -23,7 +23,7 @@ fish <- fish_raw %>%
   unnest(Picture) %>% 
   select(Species, `Vernacular-name`, `Link-Fishbase`, `Link-Wikipedia`, `Link-iNaturalist`, `Link-Doris`, filename)
 
-write.csv(fish, row.names = FALSE, "airtable/fish.csv")
+# write.csv(fish, row.names = FALSE, "airtable/fish.csv")
 
 # Last contribution
 observations_raw <- airtable("Observations",AIRTABLE_BASE_ID) %>%
@@ -45,5 +45,5 @@ last.obs <- last.obs |> unnest(c(`Name associated`,`Name (from Participants)`,`S
             Species = `Species (from Fish)`)  |> 
   left_join(fish |> select(Species, `Vernacular-name`,filename),by = "Species")
 
-write.csv(last.obs, row.names = FALSE, "airtable/last-observation.csv")
+# write.csv(last.obs, row.names = FALSE, "airtable/last-observation.csv")
 
