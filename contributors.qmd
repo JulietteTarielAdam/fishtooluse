@@ -93,7 +93,12 @@ for (i in seq_len(nrow(fish))) {
                     sprintf('<a href="%s" target="_blank">iNaturalist</a>',
                             fish$Link.iNaturalist[i]))
   }
-
+  
+  # Photo credit + licence (skipped if no credit is given)
+  author <- sprintf('<a href="%s" target="_blank">%s</a>', fish$Picture.link[i], fish$Picture.credits[i])
+  credit_text <- paste0("Photo credits: ", author, ", ",fish$Picture.licence[i])
+  credit <- sprintf('<div class="fish-credit">%s</div>', credit_text)
+  
   cat(sprintf(
     '<div class="fish-card">
 <img src="%s" alt="%s">
@@ -102,12 +107,14 @@ for (i in seq_len(nrow(fish))) {
 <div class="fish-links">
 %s
 </div>
+%s
 </div>\n',
 fish$filename[i],
 fish$Species[i],
 fish$Species[i],
 fish$Vernacular.name[i],
-links
+links,
+credit
   ))
 }
 

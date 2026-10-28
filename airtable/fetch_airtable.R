@@ -21,7 +21,7 @@ fish_raw <- airtable("Fish",AIRTABLE_BASE_ID) %>%
   read_airtable(.)
 fish <- fish_raw %>% 
   unnest(Picture) %>% 
-  select(Species, `Vernacular-name`, `Link-Fishbase`, `Link-Wikipedia`, `Link-iNaturalist`, `Link-Doris`, filename)
+  select(Species, `Vernacular-name`, `Link-Fishbase`, `Link-Wikipedia`, `Link-iNaturalist`, `Link-Doris`, filename, `Picture-credits`, `Picture-link`, `Picture-licence`)
 
 write.csv(fish, row.names = FALSE, "airtable/fish.csv")
 
@@ -32,10 +32,10 @@ observations_raw <- airtable("Observations",AIRTABLE_BASE_ID) %>%
 videos_raw <- airtable("Videos", AIRTABLE_BASE_ID) %>%
   read_airtable(.)
 
-if (max(videos_raw$Created) > max(observations_raw$Created)){
-  last.obs <- videos_raw[which(videos_raw$Created == max(videos_raw$Created)), ]
+if (any(observations_raw$`Last-contribution?`) == TRUE ){
+  last.obs <- observations_raw[which(observations_raw$`Last-contribution?` == TRUE), ]
 } else {
-  last.obs <- observations_raw[which(observations_raw$Created == max(observations_raw$Created)), ]
+  last.obs <- videos_raw[which(videos_raw$`Last-contribution?` == TRUE), ]
 }
 
 last.obs <- last.obs |> unnest(c(`Name associated`,`Name (from Participants)`,`Species (from Fish)`)) |> 
