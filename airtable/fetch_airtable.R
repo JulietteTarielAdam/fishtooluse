@@ -47,3 +47,12 @@ last.obs <- last.obs |> unnest(c(`Name associated`,`Name (from Participants)`,`S
 
 write.csv(last.obs, row.names = FALSE, "airtable/last-observation.csv")
 
+# Top contributors
+top5 <- participants_raw %>% 
+  filter(`Name-obs` == "Yes") %>% 
+  mutate(Nb.Contributions = lengths(Observations) + lengths(Videos)) %>% 
+  select(Participant, Nb.Contributions, `Social-media-reference`) %>% 
+  slice_max(Nb.Contributions, n = 5)
+
+write.csv(top3, row.names = FALSE, "airtable/top3.csv")
+

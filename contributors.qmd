@@ -8,8 +8,6 @@ editor_options:
 
 # 🚨 Last contribution
 
-
-
 ```{r}
 #| echo: false
 #| 
@@ -40,6 +38,18 @@ Thanks to our latest contributor!
 
 :::
 
+# 🥇 Top contributors
+
+A big thank you to our most active contributors! Every observation helps build our understanding of the anvil-use behaviour in fish.
+
+```{r, echo = FALSE}
+
+top3 <- read.csv("airtable/top3.csv")
+knitr::kable(top3,
+             escape = FALSE, align = "l",
+             col.names = c("Contributor", "Number of reported observations", "Their social media")
+)
+```
 
 
 # 👩👦🧓 Contributors
@@ -51,7 +61,7 @@ Please find below the list of contributors (a few of them chose to remain anonym
 
 participants <- read.csv("airtable/participants.csv")
 knitr::kable(participants,
-             escape = FALSE,
+             escape = FALSE, 
              col.names = c("Participant", "Their social media")
 )
 ```
