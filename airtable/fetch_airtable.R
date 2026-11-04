@@ -11,7 +11,7 @@ participants_raw <- airtable("Participants",AIRTABLE_BASE_ID) %>%
   read_airtable(.)
 participants <- participants_raw %>% 
   filter(`Name-obs` == "Yes") %>% 
-  arrange(`Date-first-contact`) %>% 
+  arrange(`Name-obs`) %>% 
   transmute(Participant,`Social-media-reference` = replace_na(`Social-media-reference`, ""))
 
 write.csv(participants, row.names = FALSE, "airtable/participants.csv")
@@ -54,5 +54,4 @@ top5 <- participants_raw %>%
   select(Participant, Nb.Contributions, `Social-media-reference`) %>% 
   slice_max(Nb.Contributions, n = 5)
 
-write.csv(top3, row.names = FALSE, "airtable/top3.csv")
-
+write.csv(top5, row.names = FALSE, "airtable/top5.csv")

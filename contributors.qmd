@@ -22,11 +22,11 @@ last.obs$filename <- paste0("fish-pictures/",last.obs$filename )
 
 Thanks to our latest contributor!
 
-🐟 **Fish observed:** *`r last.obs$Species`* (`r last.obs$Vernacular`)
+**Fish observed:** *`r last.obs$Species`* (`r last.obs$Vernacular`)
 
-👤 **Contributor:** `r last.obs$Contributor`
+**Contributor:** `r last.obs$Contributor`
 
-📍 **Location:** `r last.obs$Location`, `r last.obs$Country`
+**Location:** `r last.obs$Location`, `r last.obs$Country`
 
 :::
 
@@ -44,8 +44,8 @@ A big thank you to our most active contributors! Every observation helps build o
 
 ```{r, echo = FALSE}
 
-top3 <- read.csv("airtable/top3.csv")
-knitr::kable(top3,
+top5 <- read.csv("airtable/top5.csv")
+knitr::kable(top5,
              escape = FALSE, align = "l",
              col.names = c("Contributor", "Number of reported observations", "Their social media")
 )

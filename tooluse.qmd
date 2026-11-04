@@ -41,9 +41,9 @@ In any case, humans have observed fish using tools on several occasions. But we 
 
 ![The cichlid *Bujurquina vittata* can glue its eggs on rocks or leaves and use them as trays to transport the eggs.](images/Tool-use_Bujurquina-vittata.png)
 
-{{< video videos/John-Smith.mp4  title="Anvil use by a wrasse recorded in Waubs Bay, Bicheno, Tasmania>}}
+{{< video videos/John-Smith.mp4  title="Anvil use by a wrasse recorded in Waubs Bay, Bicheno, Tasmania">}}
 
-[Anvil use: Some wrasses use rocks and corals to open up hard-shelled prey. Video by John Smith recorded in Waubs Bay, Bicheno, Tasmania (their [Facebook](https://www.facebook.com/BichenoBelow))]{.legend}
+[Anvil use: Some wrasses use rocks and other hard surfaces to open up hard-shelled prey. Video by John Smith (find their other videos on [Facebook](https://www.facebook.com/BichenoBelow)), recorded at Waubs Bay, Bicheno, Tasmania.]{.legend}
 
 
 Our [research project](project.qmd) focuses on anvil use by fish. We hope it will help us understand the evolution of tool use and encourage people to realise that fish are intelligent animals worthy of protection and respect.
