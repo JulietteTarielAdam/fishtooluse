@@ -11,7 +11,7 @@ participants_raw <- airtable("Participants",AIRTABLE_BASE_ID) %>%
   read_airtable(.)
 participants <- participants_raw %>% 
   filter(`Name-obs` == "Yes") %>% 
-  arrange(`Name-obs`) %>% 
+  arrange(desc(Participant)) %>% 
   transmute(Participant,`Social-media-reference` = replace_na(`Social-media-reference`, ""))
 
 write.csv(participants, row.names = FALSE, "airtable/participants.csv")
