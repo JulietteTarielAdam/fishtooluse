@@ -25,7 +25,7 @@ To achieve these aims, we need to collect new observations of anvil use by fish.
 
 :::
 
-# 🐟 Project aim 1
+#  📚 Project aim 1
 
 > Build fundamental knowledge about anvil use by fish
 
@@ -38,7 +38,7 @@ In our research project, we focused on one type of tool use known as anvil use. 
 Apart from a few snorkelling surveys conducted by Kimberley Pryor, fish anvil use has never been studied. Most of the scientific literature consists of written descriptions of a small number of fish, often from a single location. As a result, fundamental questions about this behaviour remain unanswered such as: Which species are able to use rocks as anvils to open their prey? Do fish use different techniques? Do all individuals of a species use tools, or only one sex or at a certain period in their lives? That's why the first aim of the project is to document anvil use in fish. 
 
 
-# 🤔 Project aim 2
+# 🛠️ Project aim 2
 
 > Why don’t all animals use tools? 
 
@@ -53,7 +53,7 @@ The problem is that tool use is a rare behaviour in the animal kingdom. It is im
 With more than 600 species, Labridae is an exceptionally large and diverse family. Wrasses vary considerably in their ecology, diet, morphology, behaviour, and life history. This diversity creates a great opportunity for comparative analysis for two main reasons: (1) Anvil use may have evolved on multiple occasions across the evolutionary history of wrasses; (2) Wrasse species differ in many of the characteristics that could potentially influence tool use. Variation is essential for comparative research. If all species shared the same characteristics, it would be impossible to identify what distinguishes tool-using species from species that do not use tools. By studying wrasses, we may be able to identify the cognitive, physical, and ecological factors associated with the evolution of tool use. Ultimately, this could help explain why tool use remains rare despite the substantial advantages it can provide.
 
 
-# Project aim 3
+# 🧠 Project aim 3
 
 > Change the way people think about fish intelligence
 
